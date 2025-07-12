@@ -17,8 +17,16 @@ public class BaseService //wrapper class for RestAssured
 
     protected Response postRequest(Object payload ,String path){
         return requestSpecification.contentType(ContentType.JSON).body(payload).post(path);
-
-
+    }
+    protected Response getRequest(String basePath){
+        return requestSpecification.get();
     }
 
+    protected void setAuthToken(String token){
+         requestSpecification.header("Authorization","Bearer " + token);
+    }
+
+    protected Response putRequest(Object payload ,String path){
+        return requestSpecification.contentType(ContentType.JSON).body(payload).put(path);
+    }
 }
