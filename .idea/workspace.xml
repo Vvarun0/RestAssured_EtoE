@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7682cd81-82fe-4a8f-a2e3-4468717c558e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/request/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/response/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/AllUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/UserProfileManagementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/request/ProfileRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/request/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/response/UserProfileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/AccountCreationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/ForgotPasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/GetProfileRequestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/UpdateProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/base/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/base/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/work/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +57,14 @@
     "TestNG.LoginApiTest1.executor": "Run",
     "TestNG.LoginApiTest_test.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
   <component name="RecentsManager">
