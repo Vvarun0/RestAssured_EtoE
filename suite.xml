@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action">
+        <classes>
+            <class name="org.work.AccountCreationTest">
+                <methods>
+                    <include name="createAccountTest"/>
+                </methods>
+            </class>
+            <class name="org.work.ForgotPasswordTest">
+                <methods>
+                    <include name="forgotPasswordTest"/>
+                </methods>
+            </class>
+            <class name="org.work.GetProfileRequestTest">
+                <methods>
+                    <include name="getProfileRequestTest"/>
+                </methods>
+            </class>
+            <class name="org.work.LoginApiTest2">
+                <methods>
+                    <include name="loginTest2"/>
+                </methods>
+            </class>
+            <class name="org.work.LoginApiTest_test">
+                <methods>
+                    <include name="loginTest1"/>
+                </methods>
+            </class>
+            <class name="org.work.LoginTest">
+                <methods>
+                    <include name="userPost"/>
+                </methods>
+            </class>
+            <class name="org.work.UpdateProfileTest">
+                <methods>
+                    <include name="updateProfileTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

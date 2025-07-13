@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class LoginApiTest2 {
     @Test(description = "Verify the User Login")
     public void loginTest2(){
+        //scripts like this are hard to maintain , cannot test microservices like this , there's dependencies and hard coding
 //        baseURI = "https://fakerestapi.azurewebsites.net/";
 
         String requestBody = "{\n" +

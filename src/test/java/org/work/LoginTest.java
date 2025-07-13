@@ -5,9 +5,10 @@ import org.base.AllUserService;
 import org.models.request.UserRequest;
 import org.models.response.UserResponse;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-
+@Listeners(org.listeners.TestListener.class)
 public class LoginTest {
     @Test(description = "Verify the User Login")
     public void userPost(){

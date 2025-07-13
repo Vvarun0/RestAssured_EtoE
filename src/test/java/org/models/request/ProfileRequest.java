@@ -6,7 +6,9 @@ public class ProfileRequest {
     private String mobileNumber;
     private String email;
 
-    public ProfileRequest(String firstName, String lastName, String mobileNumber, String email) {
+//Making the constructor as private so we can create the object only from the class itself not outside the class ,
+    //in design builder also we can make it private
+    private ProfileRequest(String firstName, String lastName, String mobileNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.mobileNumber = mobileNumber;

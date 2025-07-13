@@ -9,8 +9,8 @@ public class SignUpRequest {
     private String firstName;
     private String lastName;
     private String mobileNumber;
-
-    public SignUpRequest(String username, String password, String email, String firstName, String lastName, String mobileNumber) {
+//making the constructor private so we can create the object within the class
+    private SignUpRequest(String username, String password, String email, String firstName, String lastName, String mobileNumber) {
         this.username = username;
         this.password = password;
         this.email = email;
@@ -79,6 +79,7 @@ public class SignUpRequest {
                 '}';
     }
     public static class Builder{
+        //not mandatory to be static but here in builder design pattern make it static
         //in builder design pattern the method will always return something(object)
         //this builder static class is used to do method chaining as it return builder object instance
         //we can do this with constructor as well but here we don't need to remember the sequence

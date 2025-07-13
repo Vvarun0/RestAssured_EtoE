@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7682cd81-82fe-4a8f-a2e3-4468717c558e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/AllUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/base/UserProfileManagementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/request/ProfileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/request/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/models/response/UserProfileResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/AccountCreationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/ForgotPasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/GetProfileRequestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/work/UpdateProfileTest.java" afterDir="false" />
+    <list default="true" id="7682cd81-82fe-4a8f-a2e3-4468717c558e" name="Changes" comment="DAY13">
+      <change afterPath="$PROJECT_DIR$/src/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/filters/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/listeners/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/base/AllUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/base/AllUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/base/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/base/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/models/request/ProfileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/models/request/ProfileRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/models/request/SignUpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/models/request/SignUpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginApiTest_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/work/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/work/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/work/UpdateProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/work/UpdateProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,29 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action/testng.xml.executor": "Run",
-    "TestNG.LoginApiTest.executor": "Run",
-    "TestNG.LoginApiTest1.executor": "Run",
-    "TestNG.LoginApiTest_test.executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginApiTest1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginApiTest_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nkcha/IdeaProjects/RestAssured_Demo_Jatin_GitHub_Action&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkcha\IdeaProjects\RestAssured_Demo_Jatin_GitHub_Action\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.work" />
     </key>
@@ -171,9 +177,40 @@
       <option name="presentableId" value="Default" />
       <updated>1752329433495</updated>
     </task>
+    <task id="LOCAL-00001" summary="DAY13">
+      <option name="closed" value="true" />
+      <created>1752354175432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752354175432</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DAY13">
+      <option name="closed" value="true" />
+      <created>1752354195098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752354195098</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <MESSAGE value="DAY13" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAY13" />
   </component>
 </project>

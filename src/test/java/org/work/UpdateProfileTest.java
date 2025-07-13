@@ -25,6 +25,7 @@ public class UpdateProfileTest {
         UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
         System.out.println(userProfileResponse.getFirstName());
 
+//Using builder design pattern to pass the payload easily and in any sequence
         ProfileRequest profileRequest=new ProfileRequest.Builder()
                 .firstName("ABC")
                 .lastName("CVB")

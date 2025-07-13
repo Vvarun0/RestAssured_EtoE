@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class LoginApiTest_test {
     @Test(description = "Verify the User Login")
     public void loginTest1(){
+        //scripts like this are hard to maintain
         RestAssured.baseURI = "https://fakerestapi.azurewebsites.net/";
 
         String requestBody = "{\n" +

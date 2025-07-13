@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AllUserService extends BaseService {
-
+//Each service will have a base class and each service method will be seperate method that will call base http methods
     private static final String BASE_PATH ="/api/v1/Users";
 
     public Response postUser(UserRequest payload)
